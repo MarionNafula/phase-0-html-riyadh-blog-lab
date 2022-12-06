@@ -1,50 +1,51 @@
-@import url(http://fonts.googleapis.com/css?family=Gabriela);
 
-html, body {
-  height: 100%;
-  min-height: 100%;
-}
-
-body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  font-size: 120px;
 }
 
 .wrapper {
-  margin: 0 auto;
-  width: 60%;
-  padding-bottom: 40px;
-}
-
-#content {
-  padding: 20px;
-  background: rgba(255,255,255,.85);
+@@ -25,34 +25,44 @@ body {
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
   color: #fff;
+  font-family: 'Gabriela',serif;
+  color: white;
 }
 
 h1 {
   font-size: 3.5em;
+  font-size: 40px;
   margin-bottom: 0;
+  color:black;
 }
 
 h2 {
   font-size: 1.5em;
+  font-size: 1.5pc;
   margin-top: .5em;
+  color:black;
 }
 
 h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
+  font-size: 1.5pc;
   margin-top: .5em;
+  color:black
 }
 
+h4{
+  font-size: 1.5pc;
+  color:black;
+}h5{
+  font-size: 1.5pc;
+  color:black
+}
 img {
   max-width: 100%;
   width: 100%;
@@ -53,34 +54,20 @@ img {
 
 p {
   font-size: 1em;
+  font-size: 1.5pc;
 }
 
 a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-@media only screen and (max-width: 1042px) {
-  .wrapper {
-    width: 80%;
-  }
-}
-
-@media only screen and (max-width: 784px) {
-  body {
+@@ -75,10 +85,10 @@ a:hover {
     font-size: 120%;
   }
   h1 {
     font-size: 2.5em;
+    font-size: 0.5px;
   }
   h2 {
     font-size: 1em;
+    font-size: 0.5px;
   }
   .wrapper {
     width: 95%;
-  }
-}
